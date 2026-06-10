@@ -1,6 +1,7 @@
 from src.simulation import AirportSimulation
 
 
+
 def test_simulation_starts():
     sim = AirportSimulation(seed=1)
     assert len(sim.aircraft) > 0
